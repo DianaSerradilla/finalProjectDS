@@ -5,7 +5,7 @@
 
 ## 📌 Información importante 📌
 
-Email destinatario de emails.
+Email destinatario.
 
 Email: skkinsstickers@gmail.com
 
@@ -18,6 +18,8 @@ Password: skkins123
 Se encuentra utilizado en el formulario de contacto, su correspondiente archivo de Javascript se denomina: 
 
 contactoEmail.js
+
+<img width="100%" height="auto" src="https://i.postimg.cc/DfSZrfh0/email.png" />
 
 Y su HTML, se denomina: 
 
