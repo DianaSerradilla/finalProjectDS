@@ -19,7 +19,7 @@ Se encuentra utilizado en el formulario de contacto, su correspondiente archivo 
 
 contactoEmail.js
 
-<img width="100%" height="auto" src="https://i.postimg.cc/DfSZrfh0/email.png" />
+<img width="100%" height="auto" src="https://i.postimg.cc/s27K8C5R/email.png" />
 
 Y su HTML, se denomina: 
 
