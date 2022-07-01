@@ -12,9 +12,9 @@
 
 ## ☁ Link servidores ☁
 
-<img src="https://img.icons8.com/material-two-tone/24/000000/github.png"/> [GitHub Pages](https://www.emailjs.com/)
+<img src="https://img.icons8.com/material-two-tone/24/000000/github.png"/> [GitHub Pages](https://dianaserradilla.github.io/finalProjectDS/)
 
-<img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/> [Netlify](https://www.emailjs.com/)
+<img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/> [Netlify](https://skkinsdianaserradilla.netlify.app/shop.html)
 
 ## ❗ Información importante ❗
 
