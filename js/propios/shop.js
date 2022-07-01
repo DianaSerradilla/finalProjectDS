@@ -3,7 +3,6 @@ let totalStickers = document.getElementById("total-stickers");
 let totalStickersS = document.getElementById("total-stickersS");
 let mostrarTodos = document.getElementsByClassName("mostrar-todos");
 
-
 //--------------------------Declaraciones Fin
 
 //-------------Desarrollo de funciones inicio
@@ -205,16 +204,12 @@ function filtrarPrecio(i, impresiones) {
 }
 
 //-----Función Mostrar todos:
-
 //Esta función se la coloco a todo aquel boton que tenga la clase mostrar-todos y por ende, diga "Mostrar todos" y lo que hace es volver a reimprimir todos los sticjers nuevamente.
 for (let i = 0; i < mostrarTodos.length; i++) {
   mostrarTodos[i].addEventListener("click", () =>
     imprimirStickers(impresiones)
   );
 }
-
-
-
 
 //-------------Desarrollo de funciones fin
 

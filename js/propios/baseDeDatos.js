@@ -20,7 +20,7 @@ const cupones = [
   "SKKINS-002", //1
   "SKKINS-003", //2
   "SKKINS-004", //3
-  "SKKINS-005", //4
+  "SKKINS-005" //4
 ];
 
 const ilustradores = [
