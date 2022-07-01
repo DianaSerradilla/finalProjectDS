@@ -1,5 +1,5 @@
 //-------------Declaraciones inicio
-let totalStickers = document.getElementById("total-stickers");
+let totalStickers = document.getElementsByClassName("total-stickers");
 let totalStickersS = document.getElementById("total-stickersS");
 let mostrarTodos = document.getElementsByClassName("mostrar-todos");
 
@@ -14,7 +14,11 @@ function imprimirStickers(impresiones) {
   let contenedor = document.getElementById("contenedor");
 
   //-----Esto me va a servir para imprimir el total de stickers en la frase "Mostrando 1-12 de 20 resultados"
-  totalStickers.innerHTML = impresiones.length;
+  for (let i = 0; i < totalStickers.length; i++) {
+    totalStickers[i].innerHTML = impresiones.length;
+  }
+
+
   //-----Inicializo el contedor vacio para que luego no se se sobre escriba con los filtros
   contenedor.innerHTML = "";
   for (const sticker of impresiones) {
@@ -143,8 +147,6 @@ function filtrarCategoria(categoria, impresiones) {
     sticker => sticker.categoria == categoria
   );
   contenedor.innerHTML = "";
-  //-------Esto lo realizo para modificar la cantidad de total de stickers mostrados en la frase "Mostrando 1-12 de 20 resultados"
-  totalStickers.innerHTML = impresionesXCategoria.length;
   imprimirStickers(impresionesXCategoria);
 }
 
@@ -155,7 +157,6 @@ function filtrarIlustrador(ilustrador, impresiones) {
     sticker => sticker.ilustrador == ilustrador
   );
   contenedor.innerHTML = "";
-  totalStickers.innerHTML = impresionesXIlustrador.length;
   imprimirStickers(impresionesXIlustrador);
 }
 
@@ -198,7 +199,6 @@ function filtrarPrecio(i, impresiones) {
       break;
   }
   contenedor.innerHTML = "";
-  totalStickers.innerHTML = impresionesXPrecio.length;
   //----Invoco a la función de imprimirStickers con este nuevo arrays creado.
   imprimirStickers(impresionesXPrecio);
 }
