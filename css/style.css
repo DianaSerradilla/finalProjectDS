@@ -2913,6 +2913,18 @@ ol {
   margin-bottom: 0;
 }
 
+.contact__form .input-form {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+.contact__form .input-form::placeholder {
+  color: #b7b7b7;
+}
 .contact__form input {
   height: 50px;
   width: 100%;
@@ -2925,18 +2937,18 @@ ol {
 .contact__form input::placeholder {
   color: #b7b7b7;
 }
-.contact__form textarea {
+.contact__form .input-textArea {
   height: 150px;
   width: 100%;
   border: 1px solid #e1e1e1;
   padding-left: 20px;
   padding-top: 12px;
   font-size: 15px;
-  color: #b7b7b7;
+  color: #555555;
   margin-bottom: 24px;
   resize: none;
 }
-.contact__form textarea::placeholder {
+.contact__form .input-textArea::placeholder {
   color: #b7b7b7;
 }
 .contact__form button {
