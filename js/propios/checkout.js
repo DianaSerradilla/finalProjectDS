@@ -137,7 +137,11 @@ function quitarSticker(stickerID, carrito) {
   console.log(carrito.length);
   if (carrito.length == 1) {
     limpiarCarrito();
-
+    actualizarCarrito(carrito);
+    actualizarPrecioTotalCarrito(stickerID, carrito);
+    obtenerPrecioyCantidadTotal();
+    actualizarItems();
+    imprimirCarrito(carrito);
     Toastify({
       text: `El carrito está vacío`,
       duration: 3000,
